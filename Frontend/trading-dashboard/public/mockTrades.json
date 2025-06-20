@@ -1,0 +1,38 @@
+[
+    {
+      "id": "t1",
+      "symbol": "AAPL",
+      "price": 189.55,
+      "volume": 120,
+      "timestamp": "2025-06-19T12:00:00Z"
+    },
+    {
+      "id": "t2",
+      "symbol": "GOOGL",
+      "price": 2810.44,
+      "volume": 75,
+      "timestamp": "2025-06-19T12:00:01Z"
+    },
+    {
+      "id": "t3",
+      "symbol": "TSLA",
+      "price": 697.80,
+      "volume": 90,
+      "timestamp": "2025-06-19T12:00:02Z"
+    },
+    {
+      "id": "t4",
+      "symbol": "MSFT",
+      "price": 349.23,
+      "volume": 60,
+      "timestamp": "2025-06-19T12:00:03Z"
+    },
+    {
+      "id": "t5",
+      "symbol": "AMZN",
+      "price": 3731.12,
+      "volume": 50,
+      "timestamp": "2025-06-19T12:00:04Z"
+    }
+  ]
+  
