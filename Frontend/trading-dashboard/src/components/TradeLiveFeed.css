@@ -1,0 +1,45 @@
+.trade-container {
+    padding: 1rem;
+  }
+  
+  .trade-heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .trade-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+  }
+  
+  .trade-table th,
+  .trade-table td {
+    padding: 0.75rem 1rem;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .trade-table th {
+    background-color: #f5f5f5;
+  }
+  
+  .price-changed {
+    color: #e63946;
+    font-weight: bold;
+  }
+  
+  .trade-button {
+    background-color: #007bff;
+    color: white;
+    padding: 0.4rem 0.8rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .trade-button:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,13 +1,19 @@
 import { getCLS, getFID, getFCP, getLCP, getTTFB } from 'web-vitals';
 
 const reportWebVitals = (onPerfEntry) => {
-    if (onPerfEntry && onPerfEntry instanceof Function) {
-        getCLS(onPerfEntry);
-        getFID(onPerfEntry);
-        getFCP(onPerfEntry);
-        getLCP(onPerfEntry);
-        getTTFB(onPerfEntry);
-    }
-};
+    const send = (metric) => {
+        const event = new CustomEvent("web-vital-report", {
+            detail: JSON.stringify(metric),
+        });
+        window.dispatchEvent(event);
+        if (onPerfEntry) onPerfEntry(metric);
+    };
 
-export default reportWebVitals;
+    getCLS(send);
+    getFID(send);
+    getFCP(send);
+    getLCP(send);
+    getTTFB(send);
+  };
+
+  export default reportWebVitals;

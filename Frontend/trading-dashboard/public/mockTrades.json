@@ -1,38 +1,702 @@
 [
     {
-      "id": "t1",
-      "symbol": "AAPL",
-      "price": 189.55,
-      "volume": 120,
+      "id": "18388dbc-11f3-4b71-a636-5cbd3683e451",
+      "symbol": "NVDA",
+      "price": 2259.6,
+      "volume": 275,
       "timestamp": "2025-06-19T12:00:00Z"
     },
     {
-      "id": "t2",
-      "symbol": "GOOGL",
-      "price": 2810.44,
-      "volume": 75,
+      "id": "40bd4cd3-9ee7-4bc7-b8e9-c8a057a620d6",
+      "symbol": "TSLA",
+      "price": 630.52,
+      "volume": 179,
       "timestamp": "2025-06-19T12:00:01Z"
     },
     {
-      "id": "t3",
-      "symbol": "TSLA",
-      "price": 697.80,
-      "volume": 90,
+      "id": "9f0ce51b-7879-4e5d-b77d-e47656c53d15",
+      "symbol": "SAP",
+      "price": 352.86,
+      "volume": 201,
       "timestamp": "2025-06-19T12:00:02Z"
     },
     {
-      "id": "t4",
-      "symbol": "MSFT",
-      "price": 349.23,
-      "volume": 60,
+      "id": "c9edcc90-3fc7-4054-a7d8-a3694ea77b58",
+      "symbol": "AAPL",
+      "price": 3470.62,
+      "volume": 29,
       "timestamp": "2025-06-19T12:00:03Z"
     },
     {
-      "id": "t5",
-      "symbol": "AMZN",
-      "price": 3731.12,
-      "volume": 50,
+      "id": "1256bb4d-98d5-4ad7-8a13-88699b6f30c3",
+      "symbol": "AMD",
+      "price": 463.47,
+      "volume": 93,
       "timestamp": "2025-06-19T12:00:04Z"
+    },
+    {
+      "id": "957208d9-259b-434d-885f-e6802b57ea04",
+      "symbol": "IBM",
+      "price": 265.98,
+      "volume": 204,
+      "timestamp": "2025-06-19T12:00:05Z"
+    },
+    {
+      "id": "23ca7d63-90bd-40c8-88b2-de131933e9ec",
+      "symbol": "NVDA",
+      "price": 2683.59,
+      "volume": 211,
+      "timestamp": "2025-06-19T12:00:06Z"
+    },
+    {
+      "id": "04a7eb03-450c-45bb-9dbf-b76dd51f378e",
+      "symbol": "INTC",
+      "price": 3303.55,
+      "volume": 230,
+      "timestamp": "2025-06-19T12:00:07Z"
+    },
+    {
+      "id": "c1f78d75-abe6-47cd-b653-0c4369c2d5f5",
+      "symbol": "NVDA",
+      "price": 3799.0,
+      "volume": 287,
+      "timestamp": "2025-06-19T12:00:08Z"
+    },
+    {
+      "id": "23f68039-14d0-4fcf-ac7d-b4b1d3e92483",
+      "symbol": "GOOGL",
+      "price": 2749.5,
+      "volume": 137,
+      "timestamp": "2025-06-19T12:00:09Z"
+    },
+    {
+      "id": "a98e7ddc-378a-41a0-9cdd-45d8f75a034e",
+      "symbol": "AMZN",
+      "price": 384.43,
+      "volume": 231,
+      "timestamp": "2025-06-19T12:00:10Z"
+    },
+    {
+      "id": "b499f63c-777b-46db-b4bb-8a5c20a97c78",
+      "symbol": "INTC",
+      "price": 2199.65,
+      "volume": 245,
+      "timestamp": "2025-06-19T12:00:11Z"
+    },
+    {
+      "id": "afb570b7-c431-480b-b0bd-9a142c512e24",
+      "symbol": "UBER",
+      "price": 1003.79,
+      "volume": 135,
+      "timestamp": "2025-06-19T12:00:12Z"
+    },
+    {
+      "id": "0f443abe-0452-48e0-bedf-070d97768798",
+      "symbol": "MSFT",
+      "price": 1872.97,
+      "volume": 74,
+      "timestamp": "2025-06-19T12:00:13Z"
+    },
+    {
+      "id": "bd53b69d-e910-4611-8d04-df6289b497d2",
+      "symbol": "ORCL",
+      "price": 1836.23,
+      "volume": 206,
+      "timestamp": "2025-06-19T12:00:14Z"
+    },
+    {
+      "id": "3f0eeb62-ed75-40fd-945a-d1a1fd183cb6",
+      "symbol": "DIS",
+      "price": 2004.54,
+      "volume": 283,
+      "timestamp": "2025-06-19T12:00:15Z"
+    },
+    {
+      "id": "2440d811-b9b9-4faa-ba82-d72375e2c42c",
+      "symbol": "ORCL",
+      "price": 2275.73,
+      "volume": 177,
+      "timestamp": "2025-06-19T12:00:16Z"
+    },
+    {
+      "id": "c1ec4422-d3a7-49c3-bc3e-bfe3c7fabd74",
+      "symbol": "AMZN",
+      "price": 1721.78,
+      "volume": 191,
+      "timestamp": "2025-06-19T12:00:17Z"
+    },
+    {
+      "id": "cc3fad8f-5966-49ed-a696-fc7de1e2bdfe",
+      "symbol": "ORCL",
+      "price": 2993.9,
+      "volume": 103,
+      "timestamp": "2025-06-19T12:00:18Z"
+    },
+    {
+      "id": "e9fe28c0-c262-460b-a27d-b0e7e62785b0",
+      "symbol": "TSLA",
+      "price": 1919.28,
+      "volume": 283,
+      "timestamp": "2025-06-19T12:00:19Z"
+    },
+    {
+      "id": "ad06ca0e-008b-4118-900f-95a1c38440dc",
+      "symbol": "ORCL",
+      "price": 2542.63,
+      "volume": 162,
+      "timestamp": "2025-06-19T12:00:20Z"
+    },
+    {
+      "id": "fd030e70-1f3d-4604-8e9d-18b021140fcc",
+      "symbol": "AAPL",
+      "price": 1557.58,
+      "volume": 213,
+      "timestamp": "2025-06-19T12:00:21Z"
+    },
+    {
+      "id": "748a7972-0d73-456a-9f2d-060b2eb7bfe4",
+      "symbol": "TSLA",
+      "price": 735.89,
+      "volume": 139,
+      "timestamp": "2025-06-19T12:00:22Z"
+    },
+    {
+      "id": "62b3120b-2f43-4725-909e-da77e788ed36",
+      "symbol": "ORCL",
+      "price": 2021.21,
+      "volume": 246,
+      "timestamp": "2025-06-19T12:00:23Z"
+    },
+    {
+      "id": "703764b5-1b7a-4221-806a-0a9341dabed9",
+      "symbol": "DIS",
+      "price": 2169.96,
+      "volume": 177,
+      "timestamp": "2025-06-19T12:00:24Z"
+    },
+    {
+      "id": "5f7a0260-03cf-48a5-95a1-23d58e16ef23",
+      "symbol": "SAP",
+      "price": 2707.38,
+      "volume": 256,
+      "timestamp": "2025-06-19T12:00:25Z"
+    },
+    {
+      "id": "c997a4f5-11fd-4ed6-b9f5-5df4fd6d5780",
+      "symbol": "AMD",
+      "price": 3715.87,
+      "volume": 171,
+      "timestamp": "2025-06-19T12:00:26Z"
+    },
+    {
+      "id": "7dc5561c-aa93-4ed1-af23-ba5602a881ee",
+      "symbol": "AMZN",
+      "price": 2219.48,
+      "volume": 29,
+      "timestamp": "2025-06-19T12:00:27Z"
+    },
+    {
+      "id": "b88304ed-5814-4512-9c55-3d948d59d557",
+      "symbol": "SAP",
+      "price": 661.5,
+      "volume": 207,
+      "timestamp": "2025-06-19T12:00:28Z"
+    },
+    {
+      "id": "b8878352-6dfb-4e05-a2fd-ce0aba5c71a7",
+      "symbol": "GOOGL",
+      "price": 3538.67,
+      "volume": 65,
+      "timestamp": "2025-06-19T12:00:29Z"
+    },
+    {
+      "id": "6d2d492e-f194-4844-b2a6-48f762d996ad",
+      "symbol": "AAPL",
+      "price": 1407.66,
+      "volume": 93,
+      "timestamp": "2025-06-19T12:00:30Z"
+    },
+    {
+      "id": "4406aa9e-d962-4061-98aa-7b1ef5cef498",
+      "symbol": "META",
+      "price": 1055.05,
+      "volume": 273,
+      "timestamp": "2025-06-19T12:00:31Z"
+    },
+    {
+      "id": "d224e33e-d723-4bc5-8f36-2f427a7d365a",
+      "symbol": "TSLA",
+      "price": 3054.94,
+      "volume": 127,
+      "timestamp": "2025-06-19T12:00:32Z"
+    },
+    {
+      "id": "a8cefcb5-d28b-4dba-b723-76ca8b32b124",
+      "symbol": "TSLA",
+      "price": 1650.51,
+      "volume": 249,
+      "timestamp": "2025-06-19T12:00:33Z"
+    },
+    {
+      "id": "472f2092-5765-46ee-a8d4-6dcce5fa69e1",
+      "symbol": "META",
+      "price": 286.7,
+      "volume": 169,
+      "timestamp": "2025-06-19T12:00:34Z"
+    },
+    {
+      "id": "26f5de5a-f89c-4a8a-927d-1d2e6a5055d7",
+      "symbol": "AMZN",
+      "price": 2774.99,
+      "volume": 234,
+      "timestamp": "2025-06-19T12:00:35Z"
+    },
+    {
+      "id": "cdb551f2-a5fa-4979-91b3-6655a95a7562",
+      "symbol": "SAP",
+      "price": 223.3,
+      "volume": 110,
+      "timestamp": "2025-06-19T12:00:36Z"
+    },
+    {
+      "id": "884ecc6c-7718-4feb-abe9-ce944cacfbed",
+      "symbol": "NFLX",
+      "price": 2109.14,
+      "volume": 110,
+      "timestamp": "2025-06-19T12:00:37Z"
+    },
+    {
+      "id": "7892f235-9791-462f-a263-138db7436e67",
+      "symbol": "NFLX",
+      "price": 3510.22,
+      "volume": 52,
+      "timestamp": "2025-06-19T12:00:38Z"
+    },
+    {
+      "id": "40e43f33-0a6c-47de-9270-20da952f8f9a",
+      "symbol": "UBER",
+      "price": 1332.61,
+      "volume": 172,
+      "timestamp": "2025-06-19T12:00:39Z"
+    },
+    {
+      "id": "35a63db1-7c35-403b-afe2-b0054d1fb9d7",
+      "symbol": "NFLX",
+      "price": 1544.29,
+      "volume": 169,
+      "timestamp": "2025-06-19T12:00:40Z"
+    },
+    {
+      "id": "38902f63-b4e9-49f7-8e40-06d8d9a28473",
+      "symbol": "NVDA",
+      "price": 2127.59,
+      "volume": 248,
+      "timestamp": "2025-06-19T12:00:41Z"
+    },
+    {
+      "id": "edf38199-2093-485a-9673-088f1d02cb41",
+      "symbol": "AMZN",
+      "price": 1717.06,
+      "volume": 219,
+      "timestamp": "2025-06-19T12:00:42Z"
+    },
+    {
+      "id": "5a8bfcba-fe06-4f19-a5ab-c4dc54e296f0",
+      "symbol": "NVDA",
+      "price": 1480.85,
+      "volume": 183,
+      "timestamp": "2025-06-19T12:00:43Z"
+    },
+    {
+      "id": "3f23e9a1-115f-4997-af09-62463f1e25ac",
+      "symbol": "NFLX",
+      "price": 1526.88,
+      "volume": 160,
+      "timestamp": "2025-06-19T12:00:44Z"
+    },
+    {
+      "id": "6b629fda-154d-4ea0-bfe1-47be6d21b5b8",
+      "symbol": "SAP",
+      "price": 2300.13,
+      "volume": 228,
+      "timestamp": "2025-06-19T12:00:45Z"
+    },
+    {
+      "id": "7fb0a480-2756-4d1c-b66a-db57a612568f",
+      "symbol": "MSFT",
+      "price": 1912.53,
+      "volume": 77,
+      "timestamp": "2025-06-19T12:00:46Z"
+    },
+    {
+      "id": "8d2cb110-7ba2-438c-84df-bdf03c8fcf71",
+      "symbol": "MSFT",
+      "price": 790.2,
+      "volume": 290,
+      "timestamp": "2025-06-19T12:00:47Z"
+    },
+    {
+      "id": "3cecf4c0-1d4e-4ac6-807d-d70e39f2b376",
+      "symbol": "META",
+      "price": 1193.02,
+      "volume": 259,
+      "timestamp": "2025-06-19T12:00:48Z"
+    },
+    {
+      "id": "85baef18-e2bf-498b-bab0-1c81a0360537",
+      "symbol": "MSFT",
+      "price": 353.14,
+      "volume": 126,
+      "timestamp": "2025-06-19T12:00:49Z"
+    },
+    {
+      "id": "74653b10-d7e5-4114-bfad-77b40e8e4add",
+      "symbol": "MSFT",
+      "price": 1075.85,
+      "volume": 139,
+      "timestamp": "2025-06-19T12:00:50Z"
+    },
+    {
+      "id": "51d323ec-69c3-4f2d-a21e-9e9ed217b151",
+      "symbol": "AMD",
+      "price": 2355.26,
+      "volume": 210,
+      "timestamp": "2025-06-19T12:00:51Z"
+    },
+    {
+      "id": "17d466fd-7134-41eb-8292-b5d4a36ede63",
+      "symbol": "GOOGL",
+      "price": 3311.02,
+      "volume": 250,
+      "timestamp": "2025-06-19T12:00:52Z"
+    },
+    {
+      "id": "2af45439-2dac-4fa8-9c5b-a2a744b837ca",
+      "symbol": "INTC",
+      "price": 1444.97,
+      "volume": 124,
+      "timestamp": "2025-06-19T12:00:53Z"
+    },
+    {
+      "id": "412329ec-ae1c-4659-8ee5-653d63f91f9a",
+      "symbol": "AMZN",
+      "price": 2055.74,
+      "volume": 256,
+      "timestamp": "2025-06-19T12:00:54Z"
+    },
+    {
+      "id": "7138ef24-63eb-4cf5-8d18-babff4a7e21c",
+      "symbol": "AMD",
+      "price": 1767.6,
+      "volume": 278,
+      "timestamp": "2025-06-19T12:00:55Z"
+    },
+    {
+      "id": "6976270a-6626-499b-a11a-99a08369d47c",
+      "symbol": "GOOGL",
+      "price": 548.42,
+      "volume": 223,
+      "timestamp": "2025-06-19T12:00:56Z"
+    },
+    {
+      "id": "23ef4c91-5cbf-4084-8076-a9fd8d8e7c5b",
+      "symbol": "AAPL",
+      "price": 2111.37,
+      "volume": 73,
+      "timestamp": "2025-06-19T12:00:57Z"
+    },
+    {
+      "id": "9cb4143b-af9d-4a0d-a443-c702436378e6",
+      "symbol": "UBER",
+      "price": 3133.95,
+      "volume": 142,
+      "timestamp": "2025-06-19T12:00:58Z"
+    },
+    {
+      "id": "1e26fd6e-f0e8-413e-a526-146aee612261",
+      "symbol": "DIS",
+      "price": 829.62,
+      "volume": 115,
+      "timestamp": "2025-06-19T12:00:59Z"
+    },
+    {
+      "id": "a53f2d63-fd90-4b9f-bba3-d7880187314c",
+      "symbol": "IBM",
+      "price": 3651.27,
+      "volume": 58,
+      "timestamp": "2025-06-19T12:01:00Z"
+    },
+    {
+      "id": "28098c53-0e90-4a8c-856d-d364e3c01c8e",
+      "symbol": "AAPL",
+      "price": 67.14,
+      "volume": 172,
+      "timestamp": "2025-06-19T12:01:01Z"
+    },
+    {
+      "id": "08132757-123d-42a0-b5fe-cb5626706e1b",
+      "symbol": "INTC",
+      "price": 1967.76,
+      "volume": 155,
+      "timestamp": "2025-06-19T12:01:02Z"
+    },
+    {
+      "id": "8e499109-7cd6-42ac-9055-f4635c53c995",
+      "symbol": "GOOGL",
+      "price": 3787.81,
+      "volume": 156,
+      "timestamp": "2025-06-19T12:01:03Z"
+    },
+    {
+      "id": "8aec09d7-6700-461d-bb46-b331f3cdfc4e",
+      "symbol": "AAPL",
+      "price": 1839.66,
+      "volume": 255,
+      "timestamp": "2025-06-19T12:01:04Z"
+    },
+    {
+      "id": "96814db4-13a8-439a-ae77-8143e8c2e728",
+      "symbol": "ORCL",
+      "price": 602.75,
+      "volume": 61,
+      "timestamp": "2025-06-19T12:01:05Z"
+    },
+    {
+      "id": "b77af0d1-c8a3-4ce3-ab30-f83522263632",
+      "symbol": "UBER",
+      "price": 2981.09,
+      "volume": 233,
+      "timestamp": "2025-06-19T12:01:06Z"
+    },
+    {
+      "id": "e74bce9a-b8e2-44a2-afd8-5e9b3e69574f",
+      "symbol": "DIS",
+      "price": 2487.69,
+      "volume": 55,
+      "timestamp": "2025-06-19T12:01:07Z"
+    },
+    {
+      "id": "33299b6f-519d-44f3-8d8e-32b021b8f584",
+      "symbol": "NVDA",
+      "price": 3777.59,
+      "volume": 276,
+      "timestamp": "2025-06-19T12:01:08Z"
+    },
+    {
+      "id": "cf966254-02f2-47db-a1d7-d99cc7d5d549",
+      "symbol": "IBM",
+      "price": 3767.48,
+      "volume": 85,
+      "timestamp": "2025-06-19T12:01:09Z"
+    },
+    {
+      "id": "b1e2288f-9282-4e0c-8264-7bad4995d36e",
+      "symbol": "ORCL",
+      "price": 2790.29,
+      "volume": 205,
+      "timestamp": "2025-06-19T12:01:10Z"
+    },
+    {
+      "id": "c0bc6db6-1705-4d11-9f4c-762e1db2235a",
+      "symbol": "AMZN",
+      "price": 3034.63,
+      "volume": 236,
+      "timestamp": "2025-06-19T12:01:11Z"
+    },
+    {
+      "id": "f82eaabb-8866-43bb-aa96-bdea2b49b7a8",
+      "symbol": "NFLX",
+      "price": 3557.65,
+      "volume": 99,
+      "timestamp": "2025-06-19T12:01:12Z"
+    },
+    {
+      "id": "1c58c911-c5f2-4bb8-8444-e87b401b68e3",
+      "symbol": "SAP",
+      "price": 2247.33,
+      "volume": 68,
+      "timestamp": "2025-06-19T12:01:13Z"
+    },
+    {
+      "id": "73801327-d78b-4d96-92d0-8843c92b56cb",
+      "symbol": "SAP",
+      "price": 1038.98,
+      "volume": 280,
+      "timestamp": "2025-06-19T12:01:14Z"
+    },
+    {
+      "id": "387b3bd6-7b0c-400d-a1fd-d374ff141d91",
+      "symbol": "SAP",
+      "price": 922.4,
+      "volume": 268,
+      "timestamp": "2025-06-19T12:01:15Z"
+    },
+    {
+      "id": "cbe8508f-63fb-489c-9f1d-a1ae3470f648",
+      "symbol": "DIS",
+      "price": 1232.72,
+      "volume": 92,
+      "timestamp": "2025-06-19T12:01:16Z"
+    },
+    {
+      "id": "6f027976-d37c-4338-8e5d-792b93a5fec4",
+      "symbol": "NVDA",
+      "price": 1285.32,
+      "volume": 150,
+      "timestamp": "2025-06-19T12:01:17Z"
+    },
+    {
+      "id": "6585819f-bbed-44f2-b069-d9830f9ac640",
+      "symbol": "AMD",
+      "price": 2443.45,
+      "volume": 178,
+      "timestamp": "2025-06-19T12:01:18Z"
+    },
+    {
+      "id": "99eb184c-bfca-45f2-91eb-d86f285be6dc",
+      "symbol": "SAP",
+      "price": 3151.58,
+      "volume": 79,
+      "timestamp": "2025-06-19T12:01:19Z"
+    },
+    {
+      "id": "73769df5-8788-41b3-a456-061865cdc9a4",
+      "symbol": "SAP",
+      "price": 1336.21,
+      "volume": 51,
+      "timestamp": "2025-06-19T12:01:20Z"
+    },
+    {
+      "id": "c98e83db-939d-4826-883d-7edb217961c6",
+      "symbol": "NFLX",
+      "price": 2192.67,
+      "volume": 28,
+      "timestamp": "2025-06-19T12:01:21Z"
+    },
+    {
+      "id": "8a433666-f93f-422c-bbc1-da13ba6d7284",
+      "symbol": "TSLA",
+      "price": 2522.42,
+      "volume": 38,
+      "timestamp": "2025-06-19T12:01:22Z"
+    },
+    {
+      "id": "13ac87f7-06b3-4460-b9d9-fe60bceb0b1d",
+      "symbol": "ORCL",
+      "price": 2697.45,
+      "volume": 33,
+      "timestamp": "2025-06-19T12:01:23Z"
+    },
+    {
+      "id": "d7e1172e-a176-4a1f-afd4-e431997414fe",
+      "symbol": "AAPL",
+      "price": 1973.75,
+      "volume": 228,
+      "timestamp": "2025-06-19T12:01:24Z"
+    },
+    {
+      "id": "53d41564-f4c3-4f81-a1ff-9c31a49f3216",
+      "symbol": "SAP",
+      "price": 1451.82,
+      "volume": 10,
+      "timestamp": "2025-06-19T12:01:25Z"
+    },
+    {
+      "id": "ede596c1-8075-425e-a3b0-1203f0ef1fb2",
+      "symbol": "MSFT",
+      "price": 3671.78,
+      "volume": 48,
+      "timestamp": "2025-06-19T12:01:26Z"
+    },
+    {
+      "id": "400df7ae-98e7-45d8-99e4-9491079bae24",
+      "symbol": "TSLA",
+      "price": 3147.53,
+      "volume": 76,
+      "timestamp": "2025-06-19T12:01:27Z"
+    },
+    {
+      "id": "7764ec9d-bc8b-45fd-88e9-a455b8c75ad3",
+      "symbol": "AMZN",
+      "price": 2162.38,
+      "volume": 215,
+      "timestamp": "2025-06-19T12:01:28Z"
+    },
+    {
+      "id": "575609d4-6f46-474a-af53-6f7b613e42a2",
+      "symbol": "MSFT",
+      "price": 2602.22,
+      "volume": 28,
+      "timestamp": "2025-06-19T12:01:29Z"
+    },
+    {
+      "id": "22901c7a-8d78-4709-93ee-74c97be86a3e",
+      "symbol": "UBER",
+      "price": 394.01,
+      "volume": 37,
+      "timestamp": "2025-06-19T12:01:30Z"
+    },
+    {
+      "id": "f8952c33-b38f-4427-84d0-48e913c42542",
+      "symbol": "AMD",
+      "price": 294.53,
+      "volume": 136,
+      "timestamp": "2025-06-19T12:01:31Z"
+    },
+    {
+      "id": "d852f110-5060-42ec-836e-a3f37c51519e",
+      "symbol": "AMZN",
+      "price": 3307.11,
+      "volume": 17,
+      "timestamp": "2025-06-19T12:01:32Z"
+    },
+    {
+      "id": "0439adcf-10a2-4f03-b16a-7fab1fbcf6b4",
+      "symbol": "UBER",
+      "price": 2760.39,
+      "volume": 24,
+      "timestamp": "2025-06-19T12:01:33Z"
+    },
+    {
+      "id": "e5cb7dbb-2108-421c-9379-db62f5548fa9",
+      "symbol": "MSFT",
+      "price": 566.46,
+      "volume": 167,
+      "timestamp": "2025-06-19T12:01:34Z"
+    },
+    {
+      "id": "18d0b3a3-50f3-445f-9a97-36db985838f0",
+      "symbol": "AMZN",
+      "price": 490.85,
+      "volume": 22,
+      "timestamp": "2025-06-19T12:01:35Z"
+    },
+    {
+      "id": "2241f01b-7c72-4005-ac3e-448a5a6bb06d",
+      "symbol": "META",
+      "price": 2659.34,
+      "volume": 56,
+      "timestamp": "2025-06-19T12:01:36Z"
+    },
+    {
+      "id": "9d1b0267-cef9-4f92-8b08-b28740488e13",
+      "symbol": "NFLX",
+      "price": 1133.21,
+      "volume": 203,
+      "timestamp": "2025-06-19T12:01:37Z"
+    },
+    {
+      "id": "8fbccce2-4086-4c98-b3c7-67fe8aa09a69",
+      "symbol": "AMD",
+      "price": 305.04,
+      "volume": 269,
+      "timestamp": "2025-06-19T12:01:38Z"
+    },
+    {
+      "id": "2374ad60-4e90-4eb1-b474-52f962c9f00f",
+      "symbol": "MSFT",
+      "price": 1268.83,
+      "volume": 100,
+      "timestamp": "2025-06-19T12:01:39Z"
     }
   ]
-  

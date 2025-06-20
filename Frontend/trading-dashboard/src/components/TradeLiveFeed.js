@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { toast } from 'react-toastify';
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import './TradeLiveFeed.css';
 
 const TradeLiveFeed = () => {
     const [trades, setTrades] = useState([]);
@@ -46,27 +48,42 @@ const TradeLiveFeed = () => {
             toast.success(`Trade placed: ${trade.symbol} @ $${trade.price}`);
         } else {
             toast.error("Trade failed. Please try again.");
-          }
+        }
     };
 
     return (
-        <div>
-            <h3>Live Trade Feed</h3>
-            {trades.slice(0, 5).map(trade => {
-                const isChanged = prevPrices[trade.symbol] !== trade.price;
-                return (
-                    <div key={trade.id} style={{ display: 'flex', gap: '10px', marginBottom: '10px' }}>
-                        <div>
-                            <strong>{trade.symbol}</strong> -
-                            <span style={{ color: isChanged ? 'red' : 'black', marginLeft: '5px' }}>
-                                ${trade.price}
-                            </span>
-                            @ Vol: {trade.volume} — {new Date(trade.timestamp).toLocaleTimeString()}
-                        </div>
-                        <button onClick={() => handleTrade(trade)}>Place Trade</button>
-                    </div>
-                );
-            })}
+        <div className="trade-container">
+            <h3 className="trade-heading">Live Trade Feed</h3>
+            <table className="trade-table">
+                <thead>
+                    <tr>
+                        <th>Symbol</th>
+                        <th>Price ($)</th>
+                        <th>Volume</th>
+                        <th>Timestamp</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {trades.map(trade => {
+                        const isChanged = prevPrices[trade.symbol] !== trade.price;
+                        return (
+                            <tr key={trade.id}>
+                                <td>{trade.symbol}</td>
+                                <td className={isChanged ? 'price-changed' : ''}>${trade.price}</td>
+                                <td>{trade.volume}</td>
+                                <td>{new Date(trade.timestamp).toLocaleTimeString()}</td>
+                                <td>
+                                    <button onClick={() => handleTrade(trade)} className="trade-button">
+                                        Place Trade
+                                    </button>
+                                </td>
+                            </tr>
+                        );
+                    })}
+                </tbody>
+            </table>
+            <ToastContainer position="top-right" autoClose={3000} />
         </div>
     );
 };

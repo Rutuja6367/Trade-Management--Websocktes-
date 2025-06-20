@@ -4,6 +4,7 @@ import TradeLiveFeed from './components/TradeLiveFeed';
 import TradeSummaryDashboard from './components/TradeSummaryDashboard';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import WebVitalsDashboard from './components/WebVitalsDashboard';
 
 
 function App() {
@@ -13,13 +14,15 @@ function App() {
       <nav style={{ marginBottom: '20px' }}>
         <Link to="/feed" style={{ marginRight: '10px' }}>Live Feed</Link>
         <Link to="/summary">Trade Summary</Link>
+        <Link to="/track" style={{ marginLeft: '10px' }}>Web Vitals</Link>
       </nav>
 
       <Routes>
         <Route path="/feed" element={<TradeLiveFeed />} />
-        <Route path="/summary" element={<TradeSummaryDashboard />} />
-     
+        <Route path="/summary" element={<TradeSummaryDashboard />} /> 
+        <Route path="/track" element={<WebVitalsDashboard/>}/> 
       </Routes>
+
     </Router>
   );
 }
