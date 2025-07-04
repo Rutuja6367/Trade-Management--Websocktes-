@@ -22,7 +22,7 @@ public class TradeService {
         return tradeRepository.save(trade);
     }
 
-    @GetMapping("/executed")
+    //@GetMapping("/executed")
     public List<Trade> getAllExecutedTrades() {
         return tradeRepository.findByStatus("Executed");
     }
