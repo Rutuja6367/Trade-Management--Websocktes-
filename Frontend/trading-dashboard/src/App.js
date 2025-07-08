@@ -14,7 +14,7 @@ function App() {
       <ToastContainer position="top-right" autoClose={3000} />
       <nav style={{ marginBottom: '20px' }}>
         <Link to="/feed" style={{ marginRight: '10px' }}>Live Feed</Link>
-        <Link to="/summary">Trade Summary!</Link>
+        <Link to="/summary">Trade Summary!!</Link>
         <Link to="/track" style={{ marginLeft: '10px' }}>Web Vitals</Link>
         <Link to="/timeseries" style={{ marginLeft: '10px' }}>Top Trades Chart</Link>
       </nav>
