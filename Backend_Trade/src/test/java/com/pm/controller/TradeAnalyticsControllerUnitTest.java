@@ -39,7 +39,7 @@ class TradeAnalyticsControllerUnitTest {
 
     @Test
     void testGetTopTradedSymbols() {
-        List<Object[]> mockResults = (List<Object[]>) List.of(new Object[]{"AAPL", 5L});
+        List<Object[]> mockResults =  List.<Object[]>of(new Object[]{"AAPL", 5L});
         when(tradeEventRepository.findTopTradedSymbols()).thenReturn(mockResults);
 
         List<Map<String, Object>> result = tradeAnalyticsController.getTopTradedSymbols();
@@ -51,7 +51,7 @@ class TradeAnalyticsControllerUnitTest {
 
     @Test
     void testGetTopSymbolsTimeSeries() {
-        List<Object[]> mockResults = (List<Object[]>) List.of(new Object[]{"AAPL", "2025-07-08", 5L});
+        List<Object[]> mockResults =  List.<Object[]>of(new Object[]{"AAPL", "2025-07-08", 5L});
         when(tradeEventRepository.findTopSymbolsTimeSeries()).thenReturn(mockResults);
 
         List<Map<String, Object>> result = tradeAnalyticsController.getTopSymbolsTimeSeries();
